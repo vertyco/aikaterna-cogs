@@ -60,7 +60,7 @@ class Away(commands.Cog):
         """
             Makes the embed reply
         """
-        avatar = author.avatar_url_as()  # This will return default avatar if no avatar is present
+        avatar = author.avatar.url
         color = author.color
         if message:
             link = IMAGE_LINKS.search(message)
@@ -665,7 +665,7 @@ class Away(commands.Cog):
 
         if ctx.channel.permissions_for(ctx.me).embed_links:
             em = discord.Embed(description=msg[:2048], color=author.color)
-            em.set_author(name=f"{author.display_name}'s away settings", icon_url=author.avatar_url)
+            em.set_author(name=f"{author.display_name}'s away settings", icon_url=author.avatar.url)
             await ctx.send(embed=em)
         else:
             await ctx.send(f"{author.display_name} away settings\n" + msg)
