@@ -17,8 +17,6 @@ dadjokes - Another UltimatePancake cog. Get some dad jokes on command.
 
 dictonary - Define words and look up antonyms and synonyms. Originally by UltimatePancake.
 
-dungeon - [Depreciated/Unsupported] New users with new accounts will be shuffled off to a locked channel on-join to help mitigate raiders. Please see the [dungeon_readme.md](https://github.com/aikaterna/aikaterna-cogs/blob/v3/dungeon_readme.md) file on this repo for more information.
-
 embedpeek - Take a closer look at or unpack embed content. This cog is mostly a developer tool.
 
 hunting - A long overdue port of Paddo's v2 hunting game to v3.
@@ -68,8 +66,6 @@ tools - A collection of mod and admin tools, ported from my v2 version. Sitryk i
 ttt - A Tic Tac Toe cog originally for Red V2 by HizikiFW. This cog is licensed under the Apache-2.0 license.
 
 urlfetch - Fetch text from a URL. Mainly used for simple text API queries (not JSON).
-
-warcraftlogs - [Depreciated/Unsupported] Fetch player info/metrics from the WarcraftLogs API for World of Warcraft Classic. Does not provide stats for non-Classic characters.
 
 wolfram - A v3 port of Paddo's abandoned Wolfram Alpha cog.
 
