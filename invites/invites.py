@@ -38,7 +38,7 @@ class Invites(commands.Cog):
     @invites.command()
     async def show(self, ctx: commands.Context, invite_code_or_url: str = None):
         """Show the stats for an invite, or show all invites."""
-        if not ctx.me.permissions_in(ctx.channel).administrator:
+        if not ctx.channel.permissions_for(ctx.guild.me).administrator:
             return await self._send_embed(ctx, PERM_MSG)
 
         if not invite_code_or_url:
@@ -53,7 +53,7 @@ class Invites(commands.Cog):
     @invites.command()
     async def leaderboard(self, ctx: commands.Context, list_all_invites: bool = False):
         """List pinned invites or all invites in a leaderboard style."""
-        if not ctx.me.permissions_in(ctx.channel).administrator:
+        if not ctx.channel.permissions_for(ctx.guild.me).administrator:
             return await self._send_embed(ctx, PERM_MSG)
 
         if not list_all_invites:
@@ -86,7 +86,7 @@ class Invites(commands.Cog):
     @invites.command()
     async def pin(self, ctx: commands.Context, invite_code_or_url: str):
         """Pin an invite to the leaderboard."""
-        if not ctx.me.permissions_in(ctx.channel).administrator:
+        if not ctx.channel.permissions_for(ctx.guild.me).administrator:
             return await self._send_embed(ctx, PERM_MSG)
 
         invite_code = await self._find_invite_code(invite_code_or_url)
