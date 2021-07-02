@@ -3,8 +3,6 @@ v3 Cogs for Red-DiscordBot by Twentysix26.
 
 adventure - Original concept & cog by locastan. My version is a collaboration between TrustyJAID, Draper, and myself and is now markedly different than locastan's version. The repo can be found on my repo page here on github.
 
-antiphoneclapper - Detects and removes bad GIFs posted in chat that have malformed frames. Thanks to Sitryk for all of the code that actually mattered for detection in this cog.
-
 away - Originally by Paddo, written for v3 by Axas, final tests by aikaterna, and large improvements by TrustyJAID. Set and unset a user as being "away", or other statuses.
 
 blurplefy - Make an avatar or an image upload blurple for Discord's anniversaries.
