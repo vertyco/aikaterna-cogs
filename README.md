@@ -13,7 +13,9 @@ chatchart - Generates a pie chart to display chat activity over the last 5000 me
 
 dadjokes - Another UltimatePancake cog. Get some dad jokes on command.
 
-dictonary - Define words and look up antonyms and synonyms. Originally by UltimatePancake.
+dictionary - Define words and look up antonyms and synonyms. Originally by UltimatePancake.
+
+discordexperiments - Create voice channel invites for various built-in apps. This is only for developers or for people that can read the code and assess the risk of using it.
 
 embedpeek - Take a closer look at or unpack embed content. This cog is mostly a developer tool.
 
@@ -56,6 +58,8 @@ rss - Will's RSS cog ported for v3 with a lot of extra bells and whistles.
 snacktime - A v3 port of irdumb's snacktime cog. Now with friends!
 
 timezone - A v3 port of Fishyfing's timezone cog with a few improvements.
+
+trackdecoder - A dev utility cog to resolve Lavalink Track information from a b64 string.
 
 trickortreat - A trick or treat-based competitive candy eating game with a leaderboard and other fun commands like stealing candy from guildmates.
 
